@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth; 
 }
+
 body {
     background-color: lightgray;
     box-sizing: border-box;
@@ -9,7 +10,8 @@ body {
 * {
     box-sizing: border-box;
 }
-.container{
+
+.container {
   box-sizing: border-box;
   margin:80px auto;
   width: 1424px;
@@ -18,7 +20,6 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 18px;
   line-height: 1.5;
-
 }
 
 header {
@@ -26,28 +27,30 @@ header {
   padding:30px;
   text-align: flex;
 }
-ul{
+
+ul {
   list-style-type:none;
+  padding:0;
 }
-li{
+
+li {
   text-align:center;
 }
+
 .nav-list {
   display:flex;
   align-items: center;
   justify-content: flex-end;
 }
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
   text-decoration:none;
   font-size: 18px;
 }
-header {
-  padding:30px;
-  text-align: flex;
-}
-header h1{
+
+header h1 {
   margin-bottom: 10px;
   font-size:2rem;
   font-weight:700;
@@ -55,56 +58,65 @@ header h1{
   text-transform:uppercase;
   letter-spacing:8px;
 }
-header h2{
+
+header h2 {
   margin-bottom:20px;
   letter-spacing: 2px;
 }
-section-profile{
+
+section-profile {
   width:300px;
 }
-.section-title{
+
+.section-title {
   margin:0;
   padding:10px;
   text-align:center;
 }
-#profile{
+
+#profile {
   float:left;
   display:block;
   width:50%;
   height:150px;
 }
-.image{
+
+.image {
   float:right;
   width:50%;
   height:300px;
   text-align:right;
   display:block;
-  padding: 0 0 0 412px;
+  padding: 0 40px 0 0;
 }
 
-#contacts{
+#contacts {
   display:block;
   clear:both;
   background-color: black;
   color:white;
 }
-.left-side{
+
+.left-side {
   float:left;
   display:block;
   width:68%;
 }
-.right-side{
+
+.right-side {
   float:right;
   display:block;
   width: 32%;
   background-color:darkgray;
   padding:0 0 250px 0;
 }
-#summary{
+
+#summary {
   display:block;
   clear:both;
   margin:0 60px;
 }
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -115,11 +127,17 @@ footer {
   color: #ffffff;
   background-color:dimgray;
 }
+
 footer a {
   text-decoration: none;
   color: #ffffff;
 }
+
 .my-github {
   display: flex;
   align-items: center;
+}
+
+#code {
+  background-color:gray;
 }
